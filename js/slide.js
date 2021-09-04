@@ -86,7 +86,7 @@ export default class Slide {
   }
 
   slidesIndexNav(index) {
-    const last = this.slideArray.lenght - 1 ;
+    const last = this.slideArray.length - 1 ;
     this.index  = {
       prev: index ? index - 1 : undefined,
       active: index,
